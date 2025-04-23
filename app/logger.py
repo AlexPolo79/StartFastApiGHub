@@ -1,6 +1,4 @@
 import logging
-
-
 def setup_logger():
     logger = logging.getLogger("my_app")
     logger.setLevel(logging.DEBUG)
